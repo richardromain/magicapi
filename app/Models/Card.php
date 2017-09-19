@@ -13,7 +13,7 @@ class Card extends Model
      * @var array
      */
     protected $fillable = [
-        'name', 'description', 'image', 'set_id'
+        'name', 'description', 'image', 'set_id',
     ];
 
     public function set(): BelongsTo
